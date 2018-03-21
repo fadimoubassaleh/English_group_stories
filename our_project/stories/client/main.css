@@ -3157,3 +3157,65 @@
 			}
 
 		}
+
+/* #fb{
+	float: left;
+	margin-left: 44%;
+}
+
+#twitter{
+	float: right;
+	margin-right: 44%;
+} */
+
+#footer{
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	grid-gap: 20px;
+	padding: 3%;
+}
+.socialMedia {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.socialMedia a{
+	margin: 5%;
+}
+.facebook{
+	grid-column-start: 3;
+}
+.instagram{
+	grid-column-start: 4;
+}
+.twitter{
+	grid-column-start: 5;
+}
+
+@media screen and (max-width: 520px){
+	.socialMedia {
+		display: grid;
+		grid-template-columns: 1fr ;
+	}
+	a .facebook .twitter .instagram{
+		text-align: center;
+		grid-column-start: 1;
+	}
+	.facebook{
+		grid-row-start: 1;
+		grid-column-start: 1;
+	}
+	.instagram{
+		grid-row-start: 2;
+		grid-column-start: 1;
+	}
+	.twitter{
+		grid-row-start: 3;
+		grid-column-start: 1;
+	}
+}
+
+#footer .inner{
+	border-left:  1px solid gray;
+	margin: 0;
+	padding: 5%;
+}
