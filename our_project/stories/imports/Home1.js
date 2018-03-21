@@ -10,9 +10,9 @@ export default () =>
 								<img src="images/pic01.jpg" alt="Pic 01" />
 							</div>
 							<header>
-								<h3>Lorem ipsum<br /> dolor amet nullam</h3>
+								<h3>Rainer Maria Rilke</h3>
 							</header>
-							<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
+							<p>"Ah how good it is to be among people who are reading!"</p>
 							<footer>
 								<a href="#" className="button">Learn More</a>
 							</footer>
@@ -22,9 +22,9 @@ export default () =>
 								<img src="images/pic02.jpg" alt="Pic 02" />
 							</div>
 							<header>
-								<h3>Sed feugiat<br /> tempus adipicsing</h3>
+								<h3>Write Story Now!</h3>
 							</header>
-							<p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
+							<p>If you can tell stories, create characters<br />devise incidents and have sinerity and passion<br />it doesn't matter a damn how you write</p>
 							<footer>
 								<a href="#" className="button">Learn More</a>
 							</footer>

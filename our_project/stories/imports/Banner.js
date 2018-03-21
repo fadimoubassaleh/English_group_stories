@@ -5,9 +5,11 @@ export default () =>
     <section id="banner">
 				<div className="inner">
 					<header>
-						<h1>Welcome to Projection</h1>
+						<h1>Horror Stories</h1>
+						<p>Read, Write and Share Stories For All Amateurs</p>
+						
 					</header>
-
+          
 					<div className="flex ">
 
 						<div>
