@@ -1,4 +1,4 @@
-.image.article-image{
+.image.article-summary-image{
     width:150px;
     height:150px;
     overflow:hidden;
@@ -8,6 +8,6 @@
     background-position: center;
 }
 
-.image.article-image img{
+.image.article-summary-image img{
     display:none;
 }
