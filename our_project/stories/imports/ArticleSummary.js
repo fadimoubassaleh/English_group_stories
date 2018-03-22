@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default ({image,title,alt,children}) =>
+export default ({ image='images/no-image.svg', title='No Title', alt='No image description', children=<p>no description</p> }) =>
     <article>
         <div title={alt} className="image article-summary-image round" style={{ backgroundImage: `url('`+image+`')` }}>
             <img src={image} alt={alt} />
