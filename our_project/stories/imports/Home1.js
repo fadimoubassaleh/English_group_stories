@@ -6,7 +6,7 @@ export default () =>
 				<div className="inner">
 					<div className="flex flex-2">
 						<article>
-							<div className="image round">
+							<div className="image article-image round" style={{backgroundImage:`url('images/people reading.jpg')`}}>
 								<img src="images/people reading.jpg" alt="people reading" />
 							</div>
 							<header>
@@ -18,7 +18,7 @@ export default () =>
 							</footer>
 						</article>
 						<article>
-							<div className="image round">
+							<div className="image article-image round" style={{backgroundImage:`url('images/write your story.jpg')`}}>
 								<img src="images/write your story.jpg" alt="write your story" />
 							</div>
 							<header>
