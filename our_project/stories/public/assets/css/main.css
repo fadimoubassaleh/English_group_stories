@@ -1672,13 +1672,13 @@
 	}
 
 	h3 {
-		font-size: 1.75em;
+		font-size: 3em;
 	}
 
 		@media screen and (max-width: 480px) {
 
 			h3 {
-				font-size: 1.25em;
+				font-size: 3em;
 			}
 
 		}
@@ -2199,7 +2199,7 @@
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
-			font-weight: normal;
+			font-weight: bold;
 			text-transform: none !important;
 		}
 
@@ -2226,45 +2226,52 @@
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 50%;
 			}
 
 		.image.round img {
-			border-radius: 100%;
+			border-radius: 50%;
 		}
 
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
+			width:50px;
 		}
 
 		.image.right {
 			float: right;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
+			width:50px;
+
 		}
 
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 50%;
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 50%;
 			}
 
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 50%;
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
 			}
 
+			
+
+			
+			
 /* List */
 
 	ol {
