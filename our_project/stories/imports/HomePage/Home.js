@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Meteor } from 'meteor/meteor';
 
-import Banner from './Banner.js'
 import Home1 from './Home1.js'
 import Footer from './Footer.js'
 import Slider from './Slider.js'
@@ -14,8 +13,6 @@ export default class App extends Component{
             <div>
 
 			<BannerBar/>
-
-			<Banner/>
 
 			<Home1/>
 			
