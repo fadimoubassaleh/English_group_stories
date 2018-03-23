@@ -3217,5 +3217,6 @@
 #footer .inner{
 	border-left:  1px solid gray;
 	margin: 0;
-	padding: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
